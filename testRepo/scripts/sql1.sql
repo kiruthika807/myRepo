@@ -1,0 +1,6 @@
+CREATE TABLE JobSeekers (
+    seeker_id INT PRIMARY KEY IDENTITY,
+    name NVARCHAR(100) NOT NULL,
+    email NVARCHAR(100) UNIQUE,
+    skills NVARCHAR(200)
+);
